@@ -10,9 +10,9 @@ font-size: 20px;
      
  }
  #container{
-background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%,
- rgba(9,13,121,0.9500175070028011) 35%, rgba(0,212,255,1) 100%);
+background: rgb(0, 0, 0);
+/*background: linear-gradient(90deg, rgba(2,0,36,1) 0%,
+ rgba(9,13,121,0.9500175070028011) 35%, rgba(0,212,255,1) 100%);*/
 position: relative;
 width: 60%;
 height: 500px;
@@ -21,9 +21,20 @@ left: 250px;
 padding: auto; 
 
 }
+.circle{
+width: 20%;
+height: 5%;
+background-color: rgba(0, 162, 255, 0.199);
+border-radius: 50%;
+position: absolute ;
+margin: 50px;
+
+
+}
 #top{
-   height: 100px;
+   height: 60px;
    background-color: rgba(13, 17, 233, 0.13);
+   position: relative;
 display: flex;
 flex-direction: row;
 justify-content: space-between;
@@ -34,25 +45,29 @@ justify-content: space-between;
     position: inline-block;
 }*/
 #list{
+    width: 200px;
     text-decoration: none;
     list-style: none;
-    margin-top: 70px;
-    margin-right: 25px;
+    margin-top: 20px;
+    display: flex;
+        flex-direction: row;
     
     }
     #list li{
-        display: inline-block;
         padding: 0px 10px;
        
     }
     #list li a{
      text-decoration: none;
      color: white;
+    
     }
-    #top .name{
-        margin-left: 50px;
-        font-size: 50px;
-    }
+    #list li a:hover{
+        color: rgb(245, 143, 245);
+        font-size: 21px;
+        
+       
+       }
     #main{
         position: relative;
         width: auto;
@@ -64,12 +79,38 @@ padding-left: 50px;
 }
     .right{
 width: 50%;
-height: 200px;
+ text-align: center;
+height: 300px;
   }
  .right img{
         width:40% ;
         background-color: rgba(90, 15, 160, 0.034);
         margin-top: 15px;
-        margin-left: 125px;
+        margin-left: 80px;
         border: 8px solid white;
     }
+    .right a{
+        text-decoration: none;
+        color: white;
+margin-left: 70px;
+    }
+
+.right a:hover{
+    color: rgb(250, 195, 250);
+}
+#circle{
+    width: 7%;
+    height: 5%;
+    background-color: rgba(139, 208, 248, 0.116);
+    border-radius: 70%;
+    position: absolute ;
+    margin: 50px;
+    margin-left: 500px;}
+.circle2{
+        width: 4%;
+        height: 5%;
+        background-color: rgba(139, 208, 248, 0.061);
+        border-radius: 70%;
+        position: absolute ;
+        margin: 50px;
+        margin-left: 100px;}
