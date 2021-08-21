@@ -50,13 +50,14 @@ justify-content: space-between;
     width: 200px;
     text-decoration: none;
     list-style: none;
+    margin-left: 150px;
     margin-top: 20px;
     display: flex;
         flex-direction: row;
     
     }
     #list li{
-        padding: 0px 60px;
+        padding: 0px 40px;
        
     }
     #list li a{
@@ -76,6 +77,7 @@ justify-content: space-between;
         height: 300px;
    display: flex;
    margin-top: 50px;
+   padding: auto;
    flex-direction: row;
 justify-content: space-between;
 /*margin-left: 50px;*/
@@ -83,11 +85,13 @@ justify-content: space-between;
 .left{
     width: 30%;
     margin-left: 100px;
+    margin-top: 50px;
    height: 300px;
 }
 
     .right{
 width: 50%;
+margin-top: 80px;
  text-align: center;
 height: 300px;
   }
@@ -186,14 +190,26 @@ border: 8px solid rgb(71, 4, 4);
    margin: auto;
 }
 .skill{
-    height: 50px;
+    height: 40px;
     display: flex;
     background: linear-gradient(
             to right top, rgba(33, 211, 243, 0.815),rgba(4, 137, 177, 0.801)
              );
-     margin: 20px 0px;
+     margin: 10px 3px;
      padding: 10px;
      border-radius: 10px;
-     box-shadow: 2px 2px 10px rgba(196, 191, 191, 0.472) ;
+     box-shadow: 2px 2px 4px rgba(196, 191, 191, 0.472) ;
      justify-content: space-between;
+}
+.social {
+    position: absolute;
+    flex-direction: column;
+    margin-left: 100px;
+    width: 25%;
+    height: 30px;
+    margin-top: 300px;
+}
+.social img{
+    width: 13%;
+    margin: 0px  8px;
 }
