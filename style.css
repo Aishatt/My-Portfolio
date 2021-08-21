@@ -170,3 +170,30 @@ border: 8px solid rgb(71, 4, 4);
     margin-top: 300px;
     margin-left: 30px;
 }
+#contskill{
+   
+       
+        /*background: linear-gradient(90deg, rgba(2,0,36,1) 0%,
+         rgba(9,13,121,0.9500175070028011) 35%, rgba(0,212,255,1) 100%);*/
+        position: relative;
+        width: 60%;
+        height: 550px;
+        top: 50px;
+        left: 250px;
+        
+        }
+.skills{
+   margin: auto;
+}
+.skill{
+    height: 50px;
+    display: flex;
+    background: linear-gradient(
+            to right top, rgba(33, 211, 243, 0.815),rgba(4, 137, 177, 0.801)
+             );
+     margin: 20px 0px;
+     padding: 10px;
+     border-radius: 10px;
+     box-shadow: 2px 2px 10px rgba(196, 191, 191, 0.472) ;
+     justify-content: space-between;
+}
